@@ -3,7 +3,7 @@
  * Plugin Name:       STC Product Enquiry
  * Plugin URI:        https://example.com/stc-product-enquiry
  * Description:       Replaces every WooCommerce "Add to Cart" / "Add to Quote" button with an "Enquire Now" button that opens an AJAX enquiry popup. Stores enquiries, emails the admin, and provides an admin dashboard with search, filter, delete and CSV export.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            STC
  * Author URI:        https://example.com
  * License:           GPL-2.0-or-later
@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 | Constants
 |--------------------------------------------------------------------------
 */
-define( 'STC_PE_VERSION', '1.0.0' );
+define( 'STC_PE_VERSION', '1.0.1' );
 define( 'STC_PE_FILE', __FILE__ );
 define( 'STC_PE_BASENAME', plugin_basename( __FILE__ ) );
 define( 'STC_PE_PATH', plugin_dir_path( __FILE__ ) );
